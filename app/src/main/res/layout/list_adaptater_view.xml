@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:windowSoftInputMode="adjustResize"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:id="@+id/Id"
+        android:layout_width="37dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/Fname"
+        android:layout_width="61dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="John" />
+
+    <TextView
+        android:id="@+id/Lname"
+        android:layout_width="70dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="Cena" />
+
+    <TextView
+        android:id="@+id/Email"
+        android:layout_width="139dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="John@cena.com" />
+
+    <ImageView
+        android:id="@+id/Avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="10dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+</LinearLayout>
